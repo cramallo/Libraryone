@@ -23,7 +23,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/books")
-@Api(value="Book REST API")
+@Api(description="Book REST API", produces = "application/json", tags = {"Book"})
 public class BookController {
 
     @Autowired
